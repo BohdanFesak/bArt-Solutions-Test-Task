@@ -1,0 +1,19 @@
+﻿<Window x:Class="bArt_Solutions_Test_Task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bArt_Solutions_Test_Task"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="468" Width="228">
+    <Grid>
+        <Button Content="Create JSON Request" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" Click="Button_Click" Width="184"/>
+        <TextBox x:Name="AccountName" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Account Name" VerticalAlignment="Top" Width="184" GotFocus="TextBox_GotFocusAccountName" LostFocus="AcountName_LostFocusAccountName"/>
+        <TextBox x:Name="ContactFirstName" HorizontalAlignment="Left" Margin="10,33,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Contact First Name" VerticalAlignment="Top" Width="184" GotFocus="TextBox_GotFocusContactFirstName" LostFocus="TextBox_LostFocusContactFirstName"/>
+        <TextBox x:Name="ContactLastName" HorizontalAlignment="Left" Margin="10,56,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Contact Last Name" VerticalAlignment="Top" Width="184" GotFocus="ContactLastName_GotFocusContactLastName" LostFocus="ContactLastName_LostFocusContactLastName"/>
+        <TextBox x:Name="ContactEmail" HorizontalAlignment="Left" Margin="10,79,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Contract Email" VerticalAlignment="Top" Width="184" GotFocus="ContactEmail_GotFocusContactEmail" LostFocus="ContactEmail_LostFocusContactEmail"/>
+        <TextBox x:Name="IncendentDesc" HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Incendent Description" VerticalAlignment="Top" Width="184" Height="102" GotFocus="IncendentDesc_GotFocusIncendentDesc" LostFocus="IncendentDesc_LostFocusIncendentDesc"/>
+        <Button Content="Create Class Request" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_1"/>
+        <Button Content="CRUD Operations" HorizontalAlignment="Left" Margin="10,404,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_2"/>
+    </Grid>
+</Window>
