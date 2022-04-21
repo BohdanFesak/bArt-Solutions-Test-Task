@@ -1,0 +1,12 @@
+D:\Новая папка\bArt Solutions Test Task\Reprository\bin\Debug\Reprository.dll.config
+D:\Новая папка\bArt Solutions Test Task\Reprository\bin\Debug\Reprository.dll
+D:\Новая папка\bArt Solutions Test Task\Reprository\bin\Debug\Reprository.pdb
+D:\Новая папка\bArt Solutions Test Task\Reprository\bin\Debug\EntityFramework.dll
+D:\Новая папка\bArt Solutions Test Task\Reprository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Новая папка\bArt Solutions Test Task\Reprository\bin\Debug\EntityFramework.xml
+D:\Новая папка\bArt Solutions Test Task\Reprository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Новая папка\bArt Solutions Test Task\Reprository\obj\Debug\Reprository.csproj.AssemblyReference.cache
+D:\Новая папка\bArt Solutions Test Task\Reprository\obj\Debug\Reprository.csproj.CoreCompileInputs.cache
+D:\Новая папка\bArt Solutions Test Task\Reprository\obj\Debug\Reprository.csproj.CopyComplete
+D:\Новая папка\bArt Solutions Test Task\Reprository\obj\Debug\Reprository.dll
+D:\Новая папка\bArt Solutions Test Task\Reprository\obj\Debug\Reprository.pdb

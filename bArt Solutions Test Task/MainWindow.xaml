@@ -14,6 +14,6 @@
         <TextBox x:Name="ContactEmail" HorizontalAlignment="Left" Margin="10,79,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Contract Email" VerticalAlignment="Top" Width="184" GotFocus="ContactEmail_GotFocusContactEmail" LostFocus="ContactEmail_LostFocusContactEmail"/>
         <TextBox x:Name="IncendentDesc" HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Incendent Description" VerticalAlignment="Top" Width="184" Height="102" GotFocus="IncendentDesc_GotFocusIncendentDesc" LostFocus="IncendentDesc_LostFocusIncendentDesc"/>
         <Button Content="Create Class Request" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_1"/>
-        <Button Content="CRUD Operations" HorizontalAlignment="Left" Margin="10,404,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_2"/>
+        <Button Content="CRUD Operations for Admin" HorizontalAlignment="Left" Margin="10,404,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_2"/>
     </Grid>
 </Window>

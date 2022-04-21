@@ -30,9 +30,9 @@ namespace bArt_Solutions_Test_Task
             InitializeComponent();
 
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // заглушка щоб було можна праюцвати з json якщо запит з даними приходив би від користувача у цьому формаматі
             var foo = new EmailAddressAttribute();
             if (!foo.IsValid(ContactEmail.Text)) 
             {
@@ -121,6 +121,7 @@ namespace bArt_Solutions_Test_Task
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            // альтернативна версія яка приймає класс а не json строку
             var foo = new EmailAddressAttribute();
             if (!foo.IsValid(ContactEmail.Text))
             {
@@ -133,6 +134,7 @@ namespace bArt_Solutions_Test_Task
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            // я подумав що було б ще непогано зробити CRUD операції для управління базою даних з додатку
             new CRUDWindow().Show();
         }
     }
